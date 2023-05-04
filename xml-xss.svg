@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE svg [
+    <!ENTITY elem "">
+]>
+<svg onload="alert(document.domain);" height="16" width="16">
+  &elem;
+</svg>
